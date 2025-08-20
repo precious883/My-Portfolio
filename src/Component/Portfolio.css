@@ -1,0 +1,140 @@
+.FullPort {
+    width: 60vw;
+    height: 80vh;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+.Part1{
+  width: 100%;
+  height: 24%;
+  
+  
+}
+.general{
+    padding: 50px;
+    text-align: center;
+    font-family: serif;
+}
+.general h1{
+  display: inline-block;
+  padding: 5px 20px;
+  border: 4px solid black;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+}
+
+.mid-list {
+    position: absolute;
+    display: flex;
+    border: 40px;
+    background: #060606;
+    width: 100%;
+    height: auto;
+    top: 110px;
+    left:0
+    
+}
+
+.mid-list ul{
+  display: flex;
+  gap: 70px;
+  list-style: none;
+  margin: 0;
+  padding: 20px 20px;
+  margin-left: 250px;
+  object-fit: contain;
+
+}
+
+.mid-list a{
+  text-decoration:wavy;
+  text-align:justify;
+  padding: 3px 10px;
+  border-radius: 10px;
+  font-size: 10px;
+  left: 40px;
+  color: aliceblue;
+  transition: all 0.3s ease;
+}
+
+.mid-list li::after {
+  content: "";
+  position: absolute;
+  left: 200px;
+  bottom: 10px;
+  width: 0;
+  height: 2px;
+  background: rgb(171, 175, 177);
+  transition: width 0.3s ease;
+}
+
+.mid-list li:hover::after {
+  width: 50%;
+}
+
+.Row1{
+    display: flex;
+    position: relative;
+    top: 45px;
+
+}
+
+.Row1 ul{
+  display: flex;
+  gap: 0;
+  list-style: none;
+  margin: 0;
+  margin-left: 0px;
+  object-fit: contain;
+
+}
+.Row1 img{
+  height: 178px;  
+  width: auto;    
+  object-fit: contain; 
+}
+
+.Row2{
+    display: flex;
+    position: relative;
+    top: 40px;
+
+}
+
+.Row2 ul{
+  display: flex;
+  gap: 0;
+  list-style: none;
+  margin: 0;
+  margin-left: 0px;
+  object-fit: contain;
+
+}
+
+.Row2 img{
+  height: 178px;  
+  width: auto;    
+  object-fit: contain; 
+}
+
+.lastFooter{
+    position: absolute;
+    display: block;
+    border: 50px;
+    background: #060606;
+    width: 100%;
+    height: 30px;
+    top: 500px;
+    object-fit: contain;
+}
+
+.lastFooter h2{
+   font-size: 10px;
+   color: aliceblue;
+   object-fit: contain;
+   text-align: center;
+   margin-top: 5px;
+  
+}

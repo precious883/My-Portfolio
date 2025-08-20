@@ -1,0 +1,160 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #E5E5E5;
+}
+
+.HomePage {
+    width: 60vw;
+    height: 99vh;
+    position: relative;
+    background:url('Background.png') no-repeat center center/cover ;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+.logo-icon {
+  width: 40px;       
+  height: auto;      
+  display: block;    
+  margin: 40px;    
+  top: auto;
+}
+.HomePage h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 40px; 
+    padding-bottom: 50px;
+    position: fixed;
+    display: flex;
+    
+}
+
+.HomePage h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 40px; 
+    position: absolute;
+    display: flex;
+    top: 200px
+}
+
+.HomePage p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 42px;
+    position: absolute;
+    display: flex;
+    top: 232px;
+    font-size: 12px;
+    color: #b7b6b6;
+    
+
+}
+
+.image-list {
+    position: absolute;
+    display: flex;
+    gap: 40px;
+    top: 310px;
+    margin: 44px;
+    width: 50vh;
+    height: auto;
+    
+    
+
+}
+
+.image-list button{
+  background: #b7b6b6;
+  border: 1px solid #c2c0ca;
+}
+
+.image-list img {
+  height: 17px;  
+  width: auto;    
+  object-fit: contain; 
+}
+
+.CliPic{
+    position: absolute;
+    display: flex;
+    height: auto;
+    width: 48%;
+    right: 5px;
+}
+
+.CliPic img{
+    height: 300px;  
+  width: auto;
+  object-fit: contain;
+}
+
+.Empty-div{
+    position: absolute;
+    display: flex;
+    border: 30px;
+    background: #060606;
+    width: 100%;
+    height: auto;
+    top: 420px;
+    left:0;
+
+}
+
+.footer{
+    
+    margin: 42px;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 30%;
+    background: #212020;
+    top: 395px;
+    border: 20vh;
+    left: -42px;
+}
+.footer h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: #bcb8b8;
+    margin: 20px;
+    
+}
+.footer span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 8px;
+    color: #bcb8b8;
+    margin: 20px;
+    position: absolute;
+    display: flex;
+    top: 25px;
+    
+}
+
+.footer h5{
+    font-family: 'Segoe UI', Tahoma;
+    font-size: 10px;
+    color: #bcb8b8;
+    margin: 20px;
+    position: absolute;
+    display: flex;
+    top: 65px;
+}
+
+
+.footer h5 a {
+  color: rgb(125, 124, 124);
+    text-decoration: none;
+    font-size: 9px;
+    font-weight: bold;
+    transition: color 0.3s;
+    border-radius: 30px;
+}
+.footer h5 a:hover {
+    background-color: white;
+
+}
+
+
+

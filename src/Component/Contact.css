@@ -1,0 +1,152 @@
+.Contact-Section{
+    width: 60vw;
+    height: 140vh;
+    position: relative;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+    padding: 50px;
+    text-align: center;
+    font-family: serif;
+}
+
+.header h1{
+    display: inline-block;
+  padding: 5px 30px;
+  border: 4px solid black;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  object-fit: contain;
+}
+
+.header p {
+  max-width: 600px;
+  margin: 40px 60px 60px;
+  font-size: 0.6rem;
+  color: #222;
+  line-height: 1;
+  object-fit: contain;
+  
+}
+
+.header img {
+    height: 6px;
+    width: auto;
+    margin-top: 5px;
+    top: -50px;
+    position: relative;
+    object-fit: contain;
+}
+
+.contact-form {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  max-width: 500px;
+  margin: 0 auto
+
+}
+
+.Line1 {
+  height: 40px;
+  width: 1.5px;
+  background-color: black;
+  position: relative;
+  display: flex;
+  top: 75px;
+  object-fit: contain;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid black;
+  background: transparent;
+  padding: 12px 5px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  object-fit: contain;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-bottom: 2px solid #333;
+  object-fit: contain;
+}
+
+
+
+.contact-form textarea {
+  resize: none;
+  min-height: 120px;
+  object-fit: contain;
+}
+
+
+.contact-form button {
+  margin-top: 20px;
+  padding: 10px 40px;
+  border: 2px solid black;
+  background: transparent;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  object-fit: contain;
+}
+
+.contact-form button:hover {
+  background: black;
+  color: white;
+  object-fit: contain;
+}
+
+.FINAL{
+    position:absolute;
+    display:block;
+    background: #060606;
+    left: 1px;
+    width: 100%;
+    height: 130px;
+    top: 790px;
+    object-fit: contain;
+}
+
+.FINAL h3 {
+    font-size: 8px;
+   color: aliceblue;
+   object-fit: contain;
+   text-align: center;
+   margin-top: 15px;
+}
+
+.FINAL ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  object-fit: contain;
+}
+ .FINAL img {
+  position: relative;
+  height: 20px;  
+  width: auto;    
+  object-fit: contain; 
+  left: 360px;
+  top: 30px;
+  object-fit: contain;
+ }
+
+ .FINAL p {
+    font-size: 8px;
+   color: aliceblue;
+   object-fit: contain;
+   text-align: center;
+   margin-top: 35px;
+ }

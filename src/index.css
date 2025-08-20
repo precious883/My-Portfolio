@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: aqua;
+}
+
+#root {
+  width: 70%;
+  padding: 0 0.6rem;
+}
+.login-container{
+  background: #fff;
+  padding: 2rem 1.5rem;
+  margin: 2px;
+  border-radius: 24px;
+  max-width: 0 auto ;
+  box-shadow: 0 10px 20px color(srgb rgb(13, 3, 3) green blue);
+}
+.login-container .social-login{
+  display: flex;
+  gap: 1.31rem;
+
+}
+.login-container .form-title  {
+  text-align: center;
+  font-size: 1.37rem;
+  font-weight: 600;
+  margin-bottom: 1.87rem;
+}
+
+
+.social-login .social-button{
+  display: flex;
+  width: 100%;
+  gap: 0.81rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  align-items: center ;
+  padding: 0.75rem;
+  border-radius: 0.31rem;
+  justify-content: center;
+  background: #f9f8ff;
+  border: 1px solid white;
+  transition: 0.3s ease;
+}
+
+.social-login .social-button:hover{
+  background: #f1eff9;
+  border-color: aqua;
+
+}
+
+.social-login .social-button .social-icon{
+  width:23px ;
+}
+
+.login-container .separator{
+  margin: 1.5rem;
+  text-align: center;
+  position: relative;
+}
+
+.login-container .separator span{
+position: relative;
+z-index: 1;
+background: #fff;
+padding: 0 0.9rem;
+font-size: 1.06rem;
+font-weight: 500;
+}
+
+.login-container .separator::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+  background: #bfb3f2 ;
+}
+
+.login-form .input-wrapper {
+  height: 54px;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  position: relative;
+  
+  
+}
+
+.login-form .input-wrapper .input-field {
+ height: 100%;
+ width: 100%; 
+ padding: 0 2.25rem;
+ border: 1px solid #bfb3f2;
+ border-radius: 0.31rem;
+ outline: none;
+ font-size: 1.06rem;
+ transition: 0.2s ease ;
+}
+
+.login-form .input-wrapper .input-field:focus {
+  border-color: aqua;
+}
+
+.login-form .input-wrapper .input-field ::placeholder{
+  color: #a395e0;
+  
+}
+
+
+
+.login-form .input-wrapper i {
+  color: #a395e0;
+  position: absolute;
+  top: 50%;
+  left: 0rem;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: 0.2s ease ;
+
+
+}
+
+.login-form .input-wrapper .input-field:focus ~ i {
+  color: aqua;
+}
+
+.login-form .login-Button{
+  width: 100%; 
+  height: 54px;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  font-weight: 500 ;
+  font-size: 1.2rem;
+  background: blue;
+  margin-top: 2rem;
+  border-radius: 0.31rem;
+  transition: 0.2s ease ;
+}
+
+.login-form .login-Button:hover {
+   background: aqua;
+}
+
+.login-container .signup-text{
+  text-align: center;
+  margin: 1.2rem 0 0.31rem;
+  font-weight: 500;
+
+}
+
+.login-container a {
+  color: blue;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-container a:hover {
+ text-decoration: underline;
+}
+.login-container .forgot-pass-Link{
+  display:block ;
+  width: fit-content;
+  margin-top: -0.46rem;
+}
+.SignUp-body {
+  background: #fff;
+  padding: 2rem 1.5rem;
+  margin: 2px;
+  border-radius: 24px;
+  max-width: 0 auto ;
+  box-shadow: 0 10px 20px color(srgb rgb(13, 3, 3) green blue);
+
+}
+
+.SignUp-body .input-field2 {
+  height: 54px;
+ width: 85%; 
+ padding: 0 2.25rem;
+ border: 1px solid #bfb3f2;
+ border-radius: 0.31rem;
+ outline: none;
+ font-size: 1.06rem;
+ transition: 0.2s ease ;
+}
+
+.SignUp-body .SignUp-Button {
+  width: 100%; 
+  height: 24px;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  font-weight: 500 ;
+  font-size: 1.2rem;
+  background: blue;
+  margin-top: 2rem;
+  border-radius: 0.31rem;
+  transition: 0.2s ease ;
+}
+
+.SignUp-body .separator1 {
+  margin: 1.5rem;
+  text-align: center;
+  position: relative;
+
+}
+
+.SignUp-body.separator1 span {
+  position: relative;
+z-index: 1;
+background: #fff;
+padding: 0 0.9rem;
+font-size: 1.06rem;
+font-weight: 500;
+}
+
+
+.SignUp-body .separator1 ::after {
+  position: absolute;
+  content: "";
+  content: "";
+  left: 0;
+  top: 54%;
+  width: 100%;
+  height: 2px;
+  background: #bfb3f2 ;
+}
+
+.SignUp-body .ACCT {
+  text-align: center;
+  font-size: 1.37rem;
+  font-weight: 600;
+  margin-bottom: 1.87rem;
+
+}

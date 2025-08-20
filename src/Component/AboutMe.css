@@ -1,0 +1,196 @@
+.MyBio{
+    width: 60vw;
+    height: 115vh;
+    position: relative;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    
+}
+.general{
+    padding: 50px;
+    text-align: center;
+    font-family: serif;
+}
+
+.general h1{
+    display: inline-block;
+  padding: 10px 30px;
+  border: 4px solid black;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.general p {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  font-size: 0.6rem;
+  color: #222;
+  line-height: 1.6;
+}
+
+.explore{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.line {
+  height: 15px;
+  width: 2px;
+  background-color: black;
+}
+
+.explore-text {
+    font-size: 0.7rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.general img{
+    height: 8px;
+    width: auto;
+    margin-top: 20px;
+}
+
+.Text1 {
+    padding: 30px;
+    font-family: serif;
+    margin-left: 30px;
+
+}
+.Text1 img{
+    height: 40px;
+    width: auto;
+    margin-top: 20px;
+    position:relative;
+    top: 340px;
+
+}
+.Text1 h2{
+  font-size: 0.7rem;
+  font-weight: bold;
+  display: flex;
+  position: absolute;
+  top: 405px;
+  margin-left: 25px;
+}
+
+.Text1 p{
+  max-width: 600px;
+  margin: 20px;
+  font-size: 0.6rem;
+  display: flex;
+  position: absolute;
+  top: 406px;
+  color: #222;
+  line-height: 1.6;
+}
+
+.Text2 {
+    padding: 30px;
+    font-family: serif;
+    margin-left: 420px;
+    display: flex;
+  position: absolute;
+    top: 310px;
+
+    
+}
+.Text2 img{
+    height: 40px;
+    width: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+.Text2 h2{
+  font-size: 0.7rem;
+  font-weight: bold;
+  display: flex;
+  position: absolute;
+  top: 55px;
+  margin-left: 43px;
+}
+
+.Text2 p{
+  max-width: 600px;
+  margin: 40px;
+  font-size: 0.6rem;
+  top: 55px;
+  color: #222;
+  line-height: 1.6;
+  margin-left: -5px;
+  
+}
+
+.Text3{
+    padding: 50px;
+    text-align: center;
+    font-family: serif;
+}
+
+.Text3 img{
+    height: 40px;
+    width: auto;
+    display: flex;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+.Text3 h2{
+  font-size: 0.7rem;
+  font-weight: bold;
+  display: flex;
+  position: absolute;
+  margin-left: 290px;
+  top: 524px;
+}
+
+.Text3 p {
+  max-width: 600px;
+  margin:  60px;
+  font-size: 0.6rem;
+  color: #222;
+  line-height: 1.6;
+  position: absolute;
+  right: 220px;
+}
+
+.lastimg img {
+    height: 8px;
+    width: auto;
+    top: 520px;
+    margin: 120px;
+     position: absolute;
+     right:240px;
+}
+
+.backtrack{
+   height: 60px;
+    width: auto;
+    top: 10px;
+    position: absolute;
+    right:280px;
+    color: rgb(53, 52, 52);
+    text-decoration: none;
+    font-size: 9px;
+    transition: color 0.3s;
+}
+.backtrack:hover{
+  color:rgb(171, 42, 42);
+}
+
+.lastimg button{
+  top: 660px;
+  height: 20px;
+  width: auto;
+  position: absolute;
+  padding: 10px;
+  right: 390px;
+  object-fit: contain;
+}
